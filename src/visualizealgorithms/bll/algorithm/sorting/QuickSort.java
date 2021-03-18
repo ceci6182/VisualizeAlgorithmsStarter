@@ -12,7 +12,7 @@ public class QuickSort extends GenericAlgorithm {
     @Override
     public void doWork() {
         int[] b = (int[]) super.getData();
-        quickSort(b,b[0],b[b.length - 1]);
+        quickSort(b,0,b.length-1);
     }
 
     public void quickSort(int arr[], int begin, int end) {
