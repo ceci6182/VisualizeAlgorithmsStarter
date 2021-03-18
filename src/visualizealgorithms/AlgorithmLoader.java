@@ -5,6 +5,7 @@ import visualizealgorithms.bll.algorithm.IAlgorithm;
 import visualizealgorithms.bll.algorithm.sorting.BubbleSort;
 import visualizealgorithms.bll.algorithm.sorting.InsertionSort;
 import visualizealgorithms.bll.algorithm.sorting.QuickSort;
+import visualizealgorithms.bll.algorithm.sorting.MergeSort;
 import visualizealgorithms.bll.algorithm.sorting.SelectionSort;
 
 //Java imports
@@ -27,6 +28,8 @@ public class AlgorithmLoader {
         algorithms.add(new SelectionSort());
         algorithms.add(new InsertionSort());
         algorithms.add(new QuickSort());
+        algorithms.add(new MergeSort());
+
 
         //more algorithms here :)
     }
